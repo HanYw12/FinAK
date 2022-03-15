@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/Movimiento"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="134dp"
+        android:gravity="center"
+        android:hint="@string/InMovimi"
+        android:textScaleX="1.5" />
+
+    <TextView
+        android:id="@+id/TipoMovimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Movimiento"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="76dp"
+        android:text="@string/TipMovimi" />
+
+    <Spinner
+        android:id="@+id/TipoMovimientoDown"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Movimiento"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="47dp"
+        android:layout_toEndOf="@+id/TipoMovimiento"
+        android:entries="@array/ListMovimi" />
+
+    <CheckBox
+        android:id="@+id/Fijos"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TipoMovimiento"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="53dp"
+        android:onClick="checkBoxClick"
+        android:text="@string/fijo" />
+
+    <EditText
+        android:id="@+id/Mes"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TipoMovimientoDown"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="19dp"
+        android:layout_toEndOf="@+id/Año"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/mes"
+        android:inputType="number"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/Insertar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="281dp"
+        android:onClick="clickBtnInsertar"
+        android:text="@string/Ins" />
+
+    <EditText
+        android:id="@+id/Año"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TipoMovimiento"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/Fijos"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Años"
+        android:inputType="number"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/Cantidad"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginEnd="52dp"
+        android:layout_toEndOf="@+id/Movimiento"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/Cantidad"
+        android:inputType="numberDecimal" />
+
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FinAK</string>
+    <string name="InMovimi">Movimiento</string>
+    <string name="TipMovimi">Tipo de moviemiento:</string>
+    <string name="mes">Meses</string>
+    <string name="fijo">Fijo</string>
+    <string name="Ins">Insertar</string>
+    <string name="Años">Años</string>
+    <string name="Cantidad">Cantidad</string>
+
+    <string-array name="ListMovimi">
+        <item>Ingreso</item>
+        <item>Gasto</item>
+    </string-array>
+</resources>
