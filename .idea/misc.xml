@@ -4,6 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/activity_table.xml" value="0.25" />
+        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/table_row_ak.xml" value="0.33" />
+        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/table_row_mak.xml" value="0.25" />
       </map>
     </option>
   </component>
