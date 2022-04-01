@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/activity_table.xml" value="0.25" />
+        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/drawable/boton_redondo.xml" value="0.1" />
+        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/activity_edit.xml" value="0.16077898550724637" />
+        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/activity_table.xml" value="0.3951612903225806" />
         <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/table_row_ak.xml" value="0.33" />
+        <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/table_row_calculos.xml" value="0.33" />
         <entry key="..\:/Users/CALL CENTER/AndroidStudioProjects/FinAK/app/src/main/res/layout/table_row_mak.xml" value="0.25" />
       </map>
     </option>

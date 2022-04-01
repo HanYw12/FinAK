@@ -6,12 +6,15 @@
     <string name="mes">Meses</string>
     <string name="fijo">Fijo</string>
     <string name="Ins">Insertar</string>
+    <string name="InsNew">Insertar Nuevo</string>
     <string name="Años">Años</string>
     <string name="Cantidad">Cantidad</string>
     <string name="Editar">Editar</string>
     <string name="Borrar">Borrar</string>
     <string name="Ingreso">Ingresos</string>
     <string name="Gasto">Gastos</string>
+    <string name="Calcular">Calcular</string>
+
 
 
     <string-array name="ListMovimi">

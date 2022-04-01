@@ -9,21 +9,24 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/colIngresos"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textColor="@color/white" />
 
     <TextView
         android:id="@+id/colGastos"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textColor="@color/white"/>
 
     <Button
         android:id="@+id/colEditar"
@@ -32,6 +35,7 @@
         android:layout_weight="1"
         android:onClick="clickbtnEditar"
         android:text="@string/Editar"
+        android:background="@drawable/boton_redondo"
         android:textSize="10dp"/>
 
     <Button
@@ -40,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:onClick="clickbtnBorrar"
+        android:background="@drawable/boton_redondo"
         android:text="@string/Borrar"
         android:textSize="10dp"/>
 
